@@ -4,15 +4,15 @@ Aplicación meteorológica construida con **Next.js 14**, **Tailwind CSS** y la 
 
 ## Características
 
-- ✅ **Componentes reutilizables** — Navbar, WeatherDashboard, StatBadge, DailyForecast, HourlyChart, CityCard, SkeletonCard
-- ✅ **Hooks personalizados** — `useWeather` (fetching + estados), `useLocalStorage` (persistencia)
-- ✅ **next/navigation** — `useRouter`, `useSearchParams`, `usePathname` para rutas dinámicas
-- ✅ **Modo Claro / Oscuro** — implementado con `useContext` (`ThemeContext`)
-- ✅ **Diseño responsive** — Mobile-first con Tailwind CSS
-- ✅ **TypeScript** — tipado completo en toda la app
-- ✅ **API real** — Open-Meteo (gratuita, sin API key)
+-  **Componentes reutilizables** — Navbar, WeatherDashboard, StatBadge, DailyForecast, HourlyChart, CityCard, SkeletonCard
+-  **Hooks personalizados** — `useWeather` (fetching + estados), `useLocalStorage` (persistencia)
+-  **next/navigation** — `useRouter`, `useSearchParams`, `usePathname` para rutas dinámicas
+-  **Modo Claro / Oscuro** — implementado con `useContext` (`ThemeContext`)
+-  **Diseño responsive** — Mobile-first con Tailwind CSS
+-  **TypeScript** — tipado completo en toda la app
+- **API real** — Open-Meteo (gratuita, sin API key)
 
-## Instalación
+## Instalación(pa' que lo veas)
 
 ```bash
 # 1. Instalar dependencias
@@ -24,7 +24,7 @@ npm run dev
 
 Abrir [http://localhost:3000](http://localhost:3000)
 
-## Estructura
+## Estructura (pa' que lo entiendas)
 
 ```
 weather-app/
@@ -55,7 +55,7 @@ weather-app/
     └── weather.ts          ← Tipos + fetch + utilidades
 ```
 
-## API utilizada
+## API utilizada 
 
 **Open-Meteo** — https://open-meteo.com  
 - Gratuita, sin registro, sin API key
